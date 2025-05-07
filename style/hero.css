@@ -35,6 +35,43 @@
 
     animation: slideup 6s infinite;
   }
+
+  /* buttons */
+
+  & .buttons{
+    display: flex;
+    gap: 2rem;
+    margin-top: 3rem;
+
+    & .btn{
+      display: flex;
+      align-items: center;
+      gap: .75rem;
+
+      transition: transform 500ms;
+
+      border-radius: 5rem;
+
+      &.buy{
+        padding: 1.5rem 3rem;
+        background-color: var(--snitap-sun);
+      }
+      &.play span{
+        padding: 1.5rem;
+        border-radius: 50%;
+        background-color: white;
+        display: flex;
+      }
+    }
+    & .shadow{
+      box-shadow: 0 2px 8px ;
+    }
+
+    & .btn:hover{
+      transform: scale(1.1);
+    }
+
+  }
 }
 
 @keyframes slideup {
