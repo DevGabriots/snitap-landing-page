@@ -21,11 +21,14 @@
     --text-md: 1rem;
     --text-lg: 2.5rem;
     --text-xl: 4rem;
+    
+
+
 }
 
 html{
     font: 500 1rem/150% var(--ff-base);
-   
+   zoom: 40%;
 }
 
 h1, h2{
